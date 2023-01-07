@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#slider {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+  }
+#slider::-webkit-scrollbar {
+    display: none;
+}
